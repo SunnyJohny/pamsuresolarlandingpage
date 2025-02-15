@@ -51,7 +51,6 @@ const Navbar = () => {
     { link: "About", path: "about" },
     { link: "Services", path: "services" },
     { link: "Products", path: "Equipment" },
-    // { link: "Blog", path: "blogs" },
     { link: "Contact", path: "contact" },
   ];
 
@@ -63,13 +62,12 @@ const Navbar = () => {
         <div className="flex z-10000002 justify-between items-center text-base relative">
           {/* Logo */}
           <a href="/" className="flex items-center">
-  <img
-    src="/images/Group 4 (2).png"
-    alt="Logo"
-    className="h-10 md:h-12 lg:h-14 w-auto"
-  />
-</a>
-
+            <img
+              src="/images/Group 4 (2).png"
+              alt="Logo"
+              className="h-10 md:h-12 lg:h-14 w-auto"
+            />
+          </a>
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex space-x-8">

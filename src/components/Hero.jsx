@@ -25,69 +25,73 @@ const Hero = () => {
       >
         {equipmentData.map((equipment, index) => (
           <SwiperSlide key={index} className="relative group">
-            {/* Image */}
-            <img
-              src={equipment.image}
-              alt={equipment.name}
-              className="w-full h-full object-cover"
-            />
-            {/* Overlay Content */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
-              <h2
-                className={`text-4xl font-extrabold mb-6 leading-tight break-words text-center ${
-                  index === 0
-                    ? "text-white font-Poppins shadow-lg mt-[-10px] lg:hidden"
-                    : "text-[#de5c50] font-Moserate, sans-serif"
-                } animate-drop`}
-              >
-                {index === 0 ? " " : ""}
-                {equipment.name}
-              </h2>
-
-              {index === 0 && (
-                <div className="relative text-center">
-                  {/* Welcome Message */}
-                  <h3 className="text-[22px] font-extrabold text-yellow-300 drop-shadow-md">
-                    ⚡ Welcome to PAMSURE ENTERPRISE ⚡
-                  </h3>
-
-                  {/* Renewable Energy Text */}
-                  <p className="text-[20px] text-white font-extrabold mt-6 px-4 lg:px-32">
-                    Providing <span className="text-blue-500">Reliable</span>{" "}
-                    Renewable Energy Solutions &{" "}
-                    <span className="text-blue-500">Top-Quality</span> Solar
-                    Products
-                  </p>
-
-                  <div className="absolute inset-x-0 bottom--16 flex justify-center">
-                    <a
-                      href="https://wa.me/2348068933906?text=Thanks%20for%20contacting%20us!"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className="px-6 py-2 border-2 border-green-400 text-green-400 bg-transparent rounded-full hover:bg-green-400 hover:text-white hover:scale-105 transition-transform duration-300 shadow-md">
-                        Contact Us
-                      </button>
-                    </a>
-                  </div>
+          {/* Image */}
+          <img
+            src={equipment.image}
+            alt={equipment.name}
+            className="w-full h-full object-cover"
+          />
+        
+          {/* Apply Overlay Only on the First Image */}
+          {index === 0 && <div className="absolute inset-0 bg-black bg-opacity-50"></div>}
+        
+          {/* Overlay Content */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center p-4 z-10">
+            <h2
+              className={`text-4xl font-extrabold mb-6 leading-tight break-words text-center ${
+                index === 0
+                  ? "text-white font-Poppins shadow-lg mt-[-10px] lg:hidden"
+                  : "text-[#de5c50] font-Moserate, sans-serif"
+              } animate-drop`}
+            >
+              {index === 0 ? " " : ""}
+              {equipment.name}
+            </h2>
+        
+            {index === 0 && (
+              <div className="relative text-center">
+                {/* Welcome Message */}
+                <h3 className="text-[22px] font-extrabold text-yellow-300 drop-shadow-md">
+                  ⚡ Welcome to PAMSURE ENTERPRISE ⚡
+                </h3>
+        
+                {/* Renewable Energy Text */}
+                <p className="text-[20px] text-white font-extrabold mt-6 px-4 lg:px-32">
+                  Providing <span className="text-blue-500">Reliable</span>{" "}
+                  Renewable Energy Solutions &{" "}
+                  <span className="text-blue-500">Top-Quality</span> Solar Products
+                </p>
+        
+                <div className="absolute inset-x-0 bottom--16 flex justify-center">
+                  <a
+                    href="https://wa.me/2348068933906?text=Thanks%20for%20contacting%20us!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="px-6 py-2 border-2 border-green-400 text-green-400 bg-transparent rounded-full hover:bg-green-400 hover:text-white hover:scale-105 transition-transform duration-300 shadow-md">
+                      Contact Us
+                    </button>
+                  </a>
                 </div>
-              )}
-
-              {index !== 0 && (
-                <button
-                  className="px-6 py-2 border-2 border-green-400 text-green-400 bg-transparent rounded-full hover:bg-green-400 hover:text-white hover:scale-105 transition-transform duration-300 shadow-md"
-                  onClick={() =>
-                    window.open(
-                      "https://wa.me/2348068933906?text=Hello!%20I%20am%20interested%20in%20your%20product.",
-                      "_blank"
-                    )
-                  }
-                >
-                  Buy Now
-                </button>
-              )}
-            </div>
-          </SwiperSlide>
+              </div>
+            )}
+        
+            {index !== 0 && (
+              <button
+                className="px-6 py-2 border-2 border-green-400 text-green-400 bg-transparent rounded-full hover:bg-green-400 hover:text-white hover:scale-105 transition-transform duration-300 shadow-md"
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/2348068933906?text=Hello!%20I%20am%20interested%20in%20your%20product.",
+                    "_blank"
+                  )
+                }
+              >
+                Buy Now
+              </button>
+            )}
+          </div>
+        </SwiperSlide>
+        
         ))}
       </Swiper>
 
