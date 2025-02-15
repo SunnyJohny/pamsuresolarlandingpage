@@ -52,7 +52,7 @@ const Hero = () => {
               <div className="relative text-center">
                 {/* Welcome Message */}
                 <h3 className="text-[22px] font-extrabold text-yellow-300 drop-shadow-md">
-                  ⚡ Welcome to PAMSURE ENTERPRISE ⚡
+                  ⚡ Welcome to PAMSURE ENTERPRISES ⚡
                 </h3>
         
                 {/* Renewable Energy Text */}
