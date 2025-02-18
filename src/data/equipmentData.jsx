@@ -2,6 +2,30 @@
 
 const equipmentData = [
   { id: 34, name: "", image: "/images/FB_IMG_1739522405045.jpg" },
+{ id: 50, name: "", image: "/images/IMG-20250217-WA0125.jpg" },
+{ id: 51, name: "", image: "/images/IMG-20250217-WA0126.jpg" },
+{ id: 52, name: "", image: "/images/IMG-20250217-WA0129.jpg" },
+{ id: 53, name: "", image: "/images/IMG-20250217-WA0131.jpg" },
+{ id: 54, name: "", image: "/images/IMG-20250217-WA0132.jpg" },
+{ id: 55, name: "", image: "/images/IMG-20250217-WA0133.jpg" },
+{ id: 56, name: "", image: "/images/IMG-20250217-WA0134.jpg" },
+{ id: 57, name: "", image: "/images/IMG-20250217-WA0135.jpg" },
+{ id: 58, name: "", image: "/images/IMG-20250217-WA0136.jpg" },
+{ id: 59, name: "", image: "/images/IMG-20250217-WA0137.jpg" },
+{ id: 60, name: "", image: "/images/IMG-20250217-WA0138.jpg" },
+{ id: 61, name: "", image: "/images/IMG-20250217-WA0139.jpg" },
+{ id: 62, name: "", image: "/images/IMG-20250217-WA0140.jpg" },
+{ id: 63, name: "", image: "/images/IMG-20250217-WA0141.jpg" },
+{ id: 64, name: "", image: "/images/IMG-20250217-WA0142.jpg" },
+{ id: 65, name: "", image: "/images/IMG-20250217-WA0143.jpg" },
+{ id: 66, name: "", image: "/images/IMG-20250217-WA0144.jpg" },
+{ id: 67, name: "", image: "/images/IMG-20250217-WA0145.jpg" },
+{ id: 68, name: "", image: "/images/IMG-20250217-WA0146.jpg" },
+{ id: 69, name: "", image: "/images/IMG-20250217-WA0147.jpg" },
+{ id: 70, name: "", image: "/images/IMG-20250217-WA0148.jpg" },
+{ id: 71, name: "", image: "/images/IMG-20250217-WA0149.jpg" },
+{ id: 72, name: "", image: "/images/IMG-20250217-WA0150.jpg" },
+
 
   { id: 12, name: "", image: "/images/FB_IMG_1739522482535.jpg" },
   { id: 13, name: "", image: "/images/FB_IMG_1739522496304.jpg" },
@@ -25,18 +49,20 @@ const equipmentData = [
   { id: 31, name: "", image: "/images/FB_IMG_1739522759629.jpg" },
   { id: 32, name: "", image: "/images/FB_IMG_1739522805554.jpg" },
 
-  { id: 2, name: "", image: "/images/616o1f0rhbL._AC_SR175,263_QL70_.jpg" },
-  { id: 3, name: "", image: "/images/FB_IMG_1739522093927.jpg" },
-  { id: 4, name: "", image: "/images/FB_IMG_1739522099057.jpg" },
-  { id: 5, name: "", image: "/images/FB_IMG_1739522106928.jpg" },
-  { id: 6, name: "", image: "/images/FB_IMG_1739522120019.jpg" },
-  { id: 7, name: "", image: "/images/FB_IMG_1739522405045.jpg" },
-  { id: 8, name: "", image: "/images/FB_IMG_1739522424629.jpg" },
-  { id: 9, name: "", image: "/images/FB_IMG_1739522435690.jpg" },
-  { id: 10, name: "", image: "/images/FB_IMG_1739522443077.jpg" },
+  // { id: 2, name: "", image: "/images/616o1f0rhbL._AC_SR175,263_QL70_.jpg" },
+  // { id: 3, name: "", image: "/images/FB_IMG_1739522093927.jpg" },
+  // { id: 4, name: "", image: "/images/FB_IMG_1739522099057.jpg" },
+  // { id: 5, name: "", image: "/images/FB_IMG_1739522106928.jpg" },
+  // { id: 6, name: "", image: "/images/FB_IMG_1739522120019.jpg" },
+  // { id: 7, name: "", image: "/images/FB_IMG_1739522405045.jpg" },
+  // { id: 8, name: "", image: "/images/FB_IMG_1739522424629.jpg" },
+  // { id: 9, name: "", image: "/images/FB_IMG_1739522435690.jpg" },
+  // { id: 10, name: "", image: "/images/FB_IMG_1739522443077.jpg" },
   { id: 11, name: "", image: "/images/FB_IMG_1739522475766.jpg" },
+ 
+ 
   
-  { id: 33, name: "", image: "/images/Group 4 (2).png" },
+  // { id: 33, name: "", image: "/images/Group 4 (2).png" },
 ];
 
 export default equipmentData;
