@@ -110,12 +110,12 @@ const Contact = () => {
 
               <div className="flex items-center">
                 <FaEnvelope className="text-blue-100 text-2xl mr-4" />
-                <p>oladipowilliams@gmail.com</p>
+                <p>dipowilliams2@yahoo.com</p>
               </div>
 
               <div className="flex items-center">
                 <GoLocation className="text-blue-100 text-2xl mr-4" />
-                <p>Satellite Town. Lagos State, Nigeria.</p>
+                <p>Asolo isawo road agric ikorodu, Lagos State, Nigeria.</p>
               </div>
 
               <div className="flex items-center">

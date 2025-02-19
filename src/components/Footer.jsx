@@ -41,10 +41,10 @@ const Footer = () => {
           {/* Contact Information */}
           <div>
             <h2 className="text-xl font-bold mb-4">Contact Us</h2>
-            <p>Email: oladipowilliams@gmail.com</p>
+            <p>Email: dipowilliams2@yahoo.com</p>
             <p>Phone: 08068933906, 08028590390</p>
             <p>
-              Address: Satellite Town.
+              Address: Asolo isawo road agric ikorodu,
                Lagos State, Nigeria.
             </p>
           </div>
