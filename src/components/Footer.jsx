@@ -88,9 +88,10 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-8 border-t border-gray-600 pt-4 text-center">
-          <p className="text-sm">
-            &copy; {new Date().getFullYear()} PAMSURE ENTERPRISES - RC : 3632622. All rights reserved.
-          </p>
+        <p className="text-sm">
+  &copy; {new Date().getFullYear()} PAMSURE ENTERPRISES - CAC NO: 3632622. All rights reserved.
+</p>
+
         </div>
       </div>
     </footer>
